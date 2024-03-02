@@ -30,7 +30,7 @@ class AspirantpaymentController extends Controller
           CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
           CURLOPT_CUSTOMREQUEST => "GET",
           CURLOPT_HTTPHEADER => array(
-            "Authorization: Bearer sk_live_28efe6dbf4545768be99cfc4790c9e8133f9ec79",
+            "Authorization: Bearer ",
            "Cache-Control: no-cache",
           ),
         ));
@@ -71,7 +71,7 @@ class AspirantpaymentController extends Controller
           CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
           CURLOPT_CUSTOMREQUEST => "GET",
           CURLOPT_HTTPHEADER => array(
-            "Authorization: Bearer sk_live_28efe6dbf4545768be99cfc4790c9e8133f9ec79",
+            "Authorization: Bearer ",
            "Cache-Control: no-cache",
           ),
         ));
